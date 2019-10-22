@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         fetch("https://api.exchangeratesapi.io/latest")
         .then(response => response.json())
         .then(currencies => this.currencies = currencies)
-      },
+      }
     }
   })
 
